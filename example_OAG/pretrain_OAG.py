@@ -212,7 +212,7 @@ gpt_gnn = GPT_GNN(gnn = gnn, rem_edge_list = rem_edge_list, attr_decoder = attr_
 gpt_gnn.init_emb.data = node_feature[node_type == node_dict[target_type][1]].mean(dim=0).detach()
 gpt_gnn = gpt_gnn.to(device)
 
-
+#testtest
 
 best_val   = 100000
 train_step = 0
